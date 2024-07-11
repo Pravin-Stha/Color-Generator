@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: orange;
+    transition: 1s;
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 30rem;
+    padding: 10px;
+    border-radius: 1rem;
+    background-color: white;
+    font-size: 3rem;
+    text-align: center;
+}
+
+button {
+    font-size: 2rem;
+    width: 100%;
+    background-color: black;
+    border: none;
+    border-radius: 5px;
+    display: block;
+    color: white;
+    margin-top: 1.5rem;
+    cursor: pointer;
+}
